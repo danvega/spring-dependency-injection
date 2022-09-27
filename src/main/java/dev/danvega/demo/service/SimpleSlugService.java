@@ -1,7 +1,5 @@
 package dev.danvega.demo.service;
 
-import org.springframework.stereotype.Service;
-
 public class SimpleSlugService implements Slugify {
 
     @Override
