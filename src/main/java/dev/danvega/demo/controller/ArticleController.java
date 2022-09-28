@@ -12,8 +12,8 @@ public class ArticleController {
 
     private final ArticleRepository articles;
 
-    public ArticleController() {
-        this.articles = new ArticleRepository();
+    public ArticleController(ArticleRepository articles) {
+        this.articles = articles;
     }
 
     @GetMapping

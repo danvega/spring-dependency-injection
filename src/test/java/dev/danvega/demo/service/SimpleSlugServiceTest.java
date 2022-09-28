@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SimpleSlugServiceTest {
 
-    Slugify slugify;
+    SlugService slugify;
 
     @BeforeEach
     void setUp() {

@@ -2,7 +2,8 @@ package dev.danvega.demo.service;
 
 import org.springframework.stereotype.Service;
 
-public class SimpleSlugService implements Slugify {
+@Service
+public class SimpleSlugService implements SlugService {
 
     @Override
     public String slugify(String title) {
